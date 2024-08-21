@@ -1,0 +1,37 @@
+.upload-section {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .upload-section .upload-area h2 {
+    font-size: 5em !important; /* Ensure heading size is increased */
+    margin-bottom: 30px; /* Increase space below the heading */
+  }
+  
+  
+  
+  .upload-area input[type="file"] {
+    font-size: 2em !important; /* Increase the size of the file input text */
+  }
+  
+  .upload-area button {
+    padding: 15px 30px;
+    background-color: #003366;
+    border: none;
+    color: white;
+    font-size: 1.5em !important; /* Increase the size of the button text */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-area button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .result-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
