@@ -20,7 +20,7 @@ const Upload = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://18.234.58.157:8000/predict/', formData);
+      const response = await axios.post('https://18.234.58.157:8000/predict/', formData);
       setResult(response.data);
     } catch (error) {
       console.error("Error uploading image:", error);
